@@ -1,0 +1,34 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*
+checkUser = userModel.toObject();
+checkUser.token = token;
+checkUser.password = undefined; // ye undefined isliye kiya takki hum usercheck ke object mei se hum password hata de taaki password chori na ho sake
+
+const options = {
+  httpOnly:true,
+  expires: new Date(Date.now()+ 3* 24*60*60*1000),
+}
+res.cookie("token",token,options).status(200).json({
+    message:"cookie sent in response",
+    user,
+    token,
+    success:true,
+})*/
